@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "file_handling.h"
 
 /*
  * Main function of the assembler program.
@@ -7,6 +8,8 @@
 int main ()
 {
     printf("Davidalk\n");
+    write_to_file("asdf", "asdf");
+
     return 0;
 } 
 
